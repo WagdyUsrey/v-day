@@ -40,7 +40,7 @@ const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
-music.muted = true
+music.muted = false
 music.volume = 0.3
 music.play().then(() => {
     music.muted = false
