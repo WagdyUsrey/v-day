@@ -57,7 +57,7 @@ body {
     padding: 40px 20px;
 }
 
-h1 {
+h1,h2 {
     font-size: 2.4rem;
     color: #d63384;
     font-weight: 900;
